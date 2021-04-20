@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.NavBar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-bottom: 1px solid #fed8b1;
+  box-shadow: 0 8px 6px -6px black;
+  user-select: none;
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  z-index: 100;
+}
+
+.NavBar__logo {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px 5px;
+}
+
+.logo {
+  width: 9.3rem;
+  height: 2.7rem;
+  cursor: pointer;
+}
+
+.NavBar__elements {
+  display: flex;
+  color: rgb(26, 81, 243);
+}
+
+.NavBar__element {
+  margin-right: 30px;
+  font-weight: 300;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+
+.NavBar__elements > h4:hover {
+  color: orangered;
+}

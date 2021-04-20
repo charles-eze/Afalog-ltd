@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.QuoteButton {
+  position: absolute;
+  align-items: center;
+  justify-content: left;
+  z-index: 20;
+  top: 45%;
+  margin-left: 8rem;
+}
+
+.QuoteButton__btn {
+  font-size: larger;
+  font-weight: 700;
+  padding: 1rem 3.75rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: orangered;
+  color: white;
+  text-shadow: 3px 3px 0px #0000;
+  border: transparent;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.QuoteButton__btn:focus {
+  border: transparent;
+}
+
+.QuoteButton__icon {
+  text-align: center;
+  display: flex;
+  position: absolute;
+  right: 5.5rem;
+  top: -3.75rem;
+  justify-content: center;
+  animation: bounce 1s infinite;
+  font-size: 3rem;
+  color: rgb(26, 81, 243);
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animationtimingfunction: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animationtimingfunction: cubic-bezier(0, 0, 0.2, 1);
+  }
+}

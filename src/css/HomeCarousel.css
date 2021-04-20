@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.HomeCarousel {
+  padding-top: 4rem;
+}
+
+.HomeCarousel__container {
+  height: 87vh;
+  width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: orangered !important;
+}
+
+.swiper-button-next {
+  color: gray !important;
+}
+
+.swiper-button-prev {
+  color: gray !important;
+}
+
+.HomeCarousel__img {
+  width: 100%;
+  height: 86vh;
+  position: relative;
+  object-fit: cover;
+}
