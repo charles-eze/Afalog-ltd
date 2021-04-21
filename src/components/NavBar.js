@@ -12,13 +12,27 @@ const NavBar = () => {
                     alt='afalog logo' />
 
             </div>
-            <div className='NavBar__elements'>
-                <h4 className='NavBar__element'>Home</h4>
-                <h4 className='NavBar__element'>Products</h4>
-                <h4 className='NavBar__element'>Our Services</h4>
-                <h4 className='NavBar__element'>About Us</h4>
-                <h4 className='NavBar__element'>Career</h4>
-                <h4 className='NavBar__element'>Contact Us</h4>
+            <div className='Navbar__menu'>
+                <ul>
+                    <li>Home</li>
+                    <li>Products ⬇️
+                        <ul className='NavBar__dropdown'>
+                            <li>Clinical Chemist</li>
+                            <li>Clinical Hematology</li>
+                            <li>Clinical Microbiology</li>
+                            <li>Air Protection</li>
+                            <li>Clinical Histopathology</li>
+                            <li>Hospital Products</li>
+                            <li className='long_child'>Molecular Laboratory Products</li>
+                            <li>Consumables</li>
+                            <li>Imaging</li>
+                        </ul>
+                    </li>
+                    <li>Our Services</li>
+                    <li>About Us</li>
+                    <li>Career</li>
+                    <li>Contact Us</li>
+                </ul>
             </div>
         </div>
     );

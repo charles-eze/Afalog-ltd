@@ -31,7 +31,7 @@ const Footer = () => {
                     <h4>Socials</h4>
                     <div className='Footer__socials'>
                         <SocialIcon 
-                            url='https://www.facebook.com/' 
+                            url='https://www.facebook.com/afalogmed' 
                             className='social_icons' 
                             target='_blank'
                             rel='noreferrer'
@@ -39,7 +39,7 @@ const Footer = () => {
                             style={{ height:33, width:33}} />
 
                         <SocialIcon 
-                            url='https://instagram.com' 
+                            url='https://instagram.com/afalogmed' 
                             className='social_icons' 
                             target='_blank'
                             rel='noreferrer' 
