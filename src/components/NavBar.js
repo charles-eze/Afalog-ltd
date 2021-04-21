@@ -17,7 +17,7 @@ const NavBar = () => {
                     <li>Home</li>
                     <li>Products ⬇️
                         <ul className='NavBar__dropdown'>
-                            <li>Clinical Chemist</li>
+                            <li>Clinical Chemistry</li>
                             <li>Clinical Hematology</li>
                             <li>Clinical Microbiology</li>
                             <li>Air Protection</li>
