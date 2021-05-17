@@ -5,6 +5,7 @@
 }
 
 .HomeCarousel {
+  position: relative;
   padding-top: 4rem;
 }
 

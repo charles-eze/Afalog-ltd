@@ -2,6 +2,7 @@ import React from 'react';
 import "../css/QuoteButton.css";
 import Slide from 'react-reveal/Slide';
 import { ImArrowDown } from 'react-icons/im';
+import { Link } from "react-router-dom";
 
 const QuoteButton = () => {
     return (
@@ -9,7 +10,9 @@ const QuoteButton = () => {
             <Slide right>
                 <ImArrowDown className='QuoteButton__icon bounce'/>
                 <button className='QuoteButton__btn'>
-                    Get a Quote
+                    <Link to='quotation'>
+                        Get a Quote
+                    </Link>
                 </button>
             </Slide>     
         </div>

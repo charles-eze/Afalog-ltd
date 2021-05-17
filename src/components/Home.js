@@ -1,9 +1,10 @@
 import React from 'react';
 import "../css/Home.css";
-// import Hero from './Hero';
 import HomeCarousel from './HomeCarousel';
+import Partners from './Partners';
 import Products from './Products';
 import QuoteButton from './QuoteButton';
+
 
 const Home = () => {
     return (
@@ -11,11 +12,12 @@ const Home = () => {
            <HomeCarousel />   
            <QuoteButton />
            <Products />
+           <Partners />
             <div className='Home__backToTop'>
                 <a href='#top'>
                     Back to top
                 </a>
-            </div>
+            </div>      
         </div>
     );
 };
