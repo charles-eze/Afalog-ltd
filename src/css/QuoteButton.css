@@ -9,22 +9,12 @@
   align-items: center;
   justify-content: left;
   z-index: 20;
-  top: 36%;
+  top: 33.5%;
   margin-left: 8rem;
 }
 
-.QuoteButton__btn {
-  font-size: larger;
-  font-weight: 700;
-  padding: 1rem 3.75rem;
-  border-radius: 2rem;
-  cursor: pointer;
-  background-color: orangered;
-  color: white;
-  text-shadow: 3px 3px 0px #0000;
-  border: transparent;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+.QuoteButton__btn > img {
+  width: 21%;
 }
 
 .QuoteButton__btn:focus {
@@ -34,13 +24,15 @@
 .QuoteButton__icon {
   text-align: center;
   display: flex;
+  right: 87%;
   position: absolute;
-  right: 5.5rem;
-  top: -3.75rem;
+  top: -3.15rem;
   justify-content: center;
   animation: bounce 1s infinite;
-  font-size: 3rem;
-  color: rgb(26, 81, 243);
+  font-size: 3.75rem;
+  line-height: 5rem;
+  /* color: rgb(56, 97, 219); */
+  color: orangered;
 }
 
 @keyframes bounce {

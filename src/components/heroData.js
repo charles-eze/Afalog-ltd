@@ -1,16 +1,12 @@
-// import image from "../images/picc1.jpg"
-// import image1 from "../images/picc2.jpg"
-// import image2 from "../images/picc3.jpg"
-// import image3 from "../images/picc4.jpg"
-import image from "../images/newImage.jpeg"
-import image1 from "../images/newImage1.jpeg"
-import image2 from "../images/newImage2.jpeg"
-import image3 from "../images/newImage3.jpeg"
-import image4 from "../images/newImage4.jpeg"
-import image5 from "../images/newImage5.jpeg"
-// import image6 from "../images/b6.jpg"
-// import image7 from "../images/b7.jpg"
-// import image8 from "../images/BBBBBBBB.jpg"
+import image from "../images/imageCarousel.jpg"
+import image1 from "../images/imageCarousel1.jpg"
+import image2 from "../images/imageCarousel2.jpg"
+import image3 from "../images/imageCarousel3.jpg"
+import image4 from "../images/imageCarousel4.jpg"
+import image5 from "../images/imageCarousel5.jpg"
+import image6 from "../images/imageCarousel6.jpg"
+import image7 from "../images/imageCarousel7.jpg"
+
 
 const heroData = [
     {
@@ -37,18 +33,14 @@ const heroData = [
         id: 6,
         image: image5,
     },
-    // {
-    //     id: 7,
-    //     image: image6,
-    // },
-    // {
-    //     id: 8,
-    //     image: image7,
-    // },
-    // {
-    //     id: 9,
-    //     image: image8,
-    // },
+    {
+        id: 7,
+        image: image6,
+    },
+    {
+        id: 8,
+        image: image7,
+    },
 ];
 
 export default heroData;
