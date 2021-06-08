@@ -1,17 +1,17 @@
 import React from 'react';
 import "../css/QuotationForm.css";
-import image from "../images/afalog_image.png"
+// import image from "../images/afalog_image.png"
 
 const QuotationForm = () => {
     return (
         <div className='container'>
             <div className='containers'></div>
             <div className='QuotationForm'>
-                <div className='form__logo'>
+                {/* <div className='form__logo'>
                     <img 
                     src={image}
                     alt='afalog logoo' />
-                </div>  
+                </div>   */}
                 <div className='form__content'>
                     <h1>Get a Quote</h1>
                     <form>
@@ -42,12 +42,16 @@ const QuotationForm = () => {
                         <h5>Message<span>*</span></h5>
                         <textarea
                             type='textarea'
+                            placeholder='Please tell us what you need, we will send you a quotation..'
                             required
-                            maxlength="1500"
+                            // maxlength="50000"
                             // value={message} 
                             >
                         </textarea> 
-                        <input type="submit" />
+                        <button className='form-btn'>
+                            <input type="submit" />
+                        </button>
+                        
                             
                     </form>
                 </div>
