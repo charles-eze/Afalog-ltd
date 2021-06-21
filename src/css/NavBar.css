@@ -38,7 +38,7 @@ ul {
   list-style: none;
 }
 
-a {
+.Link {
   text-decoration: none;
 }
 
@@ -52,23 +52,23 @@ a {
   position: relative;
 }
 
-.NavBar__link > a {
+.NavBar__link .Link {
   line-height: 3rem;
   color: rgb(26, 81, 243);
   padding: 0.8rem;
   letter-spacing: 1px;
-  font-size: 0.87rem;
+  font-size: 0.91rem;
   display: flex;
   margin-right: 0.3rem;
   align-items: center;
   transition: 0.5s;
 }
 
-.NavBar__link > a > i {
+.NavBar__link .Link > i {
   margin-left: 0.2rem;
 }
 
-.NavBar__link:hover > a {
+.NavBar__link:hover .Link {
   transform: scale(1.1);
   color: orangered;
 }
@@ -88,7 +88,7 @@ a {
   position: relative;
 }
 
-.dropdown-link > a {
+.dropdown-link .Link {
   display: flex;
   background-color: rgb(26, 81, 243);
   color: white;
@@ -99,7 +99,7 @@ a {
   /* transition: 0.3s; */
 }
 
-.dropdown-link:hover > a {
+.dropdown-link:hover .Link {
   background-color: orangered;
   color: white;
   transform: scale(1.027);

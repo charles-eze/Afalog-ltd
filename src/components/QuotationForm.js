@@ -1,9 +1,11 @@
 import React from 'react';
 import "../css/QuotationForm.css";
+import Footer from '../components/Footer';
 // import image from "../images/afalog_image.png"
 
 const QuotationForm = () => {
     return (
+        <>
         <div className='container'>
             <div className='containers'></div>
             <div className='QuotationForm'>
@@ -48,17 +50,20 @@ const QuotationForm = () => {
                             // value={message} 
                             >
                         </textarea> 
+                        <div></div>
                         <button className='form-btn'>
                             <input type="submit" />
                         </button>
-                        
-                            
-                    </form>
-                </div>
 
-                
+                    </form>
+                </div> 
             </div>
+            <div className='containerss'></div>
         </div>
+        {/* <div className='footer'>
+            <Footer />
+        </div> */}
+        </>
     )
 }
 
