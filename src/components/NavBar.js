@@ -28,16 +28,16 @@ const NavBar = () => {
                                     <div className='dropdown second'>
                                         <ul>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Chemistry Analyzer</Link>
+                                                <Link className='Link subLink' to='/quotation'>Chemistry Analyzer</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Eliza Reader</Link>
+                                                <Link className='Link subLink' to='/quotation'>Eliza Reader</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Electrolyte Analyzer</Link>
+                                                <Link className='Link subLink' to='/quotation'>Electrolyte Analyzer</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Dry Chemistry</Link>
+                                                <Link className='Link subLink' to='/quotation'>Dry Chemistry</Link>
                                             </li>
                                             <div className='arrow'></div>
                                         </ul>
@@ -48,10 +48,10 @@ const NavBar = () => {
                                     <div className='dropdown second'>
                                         <ul>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>5 part diff</Link>
+                                                <Link className='Link subLink' to='/quotation'>5 part diff</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>3 part diff</Link>
+                                                <Link className='Link subLink' to='/quotation'>3 part diff</Link>
                                             </li>
                                             <div className='arrow'></div>
                                         </ul>
@@ -65,16 +65,16 @@ const NavBar = () => {
                                     <div className='dropdown second'>
                                         <ul>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Biosafety Cabinet</Link>
+                                                <Link className='Link subLink' to='/quotation'>Biosafety Cabinet</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>PCR Cabinet</Link>
+                                                <Link className='Link subLink' to='/quotation'>PCR Cabinet</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Fume Hood</Link>
+                                                <Link className='Link subLink' to='/quotation'>Fume Hood</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Laminar Flow Cabinet</Link>
+                                                <Link className='Link subLink' to='/quotation'>Laminar Flow Cabinet</Link>
                                             </li>
                                             <div className='arrow'></div>
                                         </ul>
@@ -88,13 +88,13 @@ const NavBar = () => {
                                     <div className='dropdown second'>
                                         <ul>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Patient Monitor</Link>
+                                                <Link className='Link subLink' to='/quotation'>Patient Monitor</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Hospital Bed</Link>
+                                                <Link className='Link subLink' to='/quotation'>Hospital Bed</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Theatre Equipment</Link>
+                                                <Link className='Link subLink' to='/quotation'>Theatre Equipment</Link>
                                             </li>
                                             <div className='arrow'></div>
                                         </ul>
@@ -105,10 +105,10 @@ const NavBar = () => {
                                     <div className='dropdown second'>
                                         <ul>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>PCR Machine</Link>
+                                                <Link className='Link subLink' to='/quotation'>PCR Machine</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Nucleic Acid Extraction Machine</Link>
+                                                <Link className='Link subLink' to='/quotation'>Nucleic Acid Extraction Machine</Link>
                                             </li>
                                             <div className='arrow'></div>
                                         </ul>
@@ -119,10 +119,10 @@ const NavBar = () => {
                                     <div className='dropdown second'>
                                         <ul>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Reagents</Link>
+                                                <Link className='Link subLink' to='/quotation'>Reagents</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Surgical Face Mask</Link>
+                                                <Link className='Link subLink' to='/quotation'>Surgical Face Mask</Link>
                                             </li>
                                             <div className='arrow'></div>
                                         </ul>
@@ -133,10 +133,10 @@ const NavBar = () => {
                                     <div className='dropdown second'>
                                         <ul>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>Ultrasound</Link>
+                                                <Link className='Link subLink' to='/quotation'>Ultrasound</Link>
                                             </li>
                                             <li className='dropdown-link'>
-                                                <Link className='Link' to='/quotation'>ECG</Link>
+                                                <Link className='Link subLink' to='/quotation'>ECG</Link>
                                             </li>
                                             <div className='arrow'></div>
                                         </ul>

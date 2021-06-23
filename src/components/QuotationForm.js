@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/QuotationForm.css";
-import Footer from '../components/Footer';
+//import Footer from '../components/Footer';
 // import image from "../images/afalog_image.png"
 
 const QuotationForm = () => {
