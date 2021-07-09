@@ -2,6 +2,7 @@ import React from 'react';
 import "../css/Footer.css";
 import image from "../images/afalog_image.png"
 import { SocialIcon } from "react-social-icons";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -9,23 +10,19 @@ const Footer = () => {
             <section className='Footer__section'>
                 <article className='Footer__article'>
                     <h4 className='md:text-sm lg:text-base font-bold'>Get to Know Us</h4>
-                    <p><a href='https://github.com/charles-eze/amazon-clone-with-react'>Careers</a></p>
+                    <p><Link to='/careers'>Careers</Link></p>
                     <p><a href='https://github.com/charles-eze/amazon-clone-with-react'>About Afalog</a></p>
                    
                 </article>
                 <article className='Footer__article '>
                     <h4 className='md:text-sm lg:text-base font-bold'>Make Money with Us</h4>
-                    <p><a href='https://github.com/charles-eze/amazon-clone-with-react' 
-                        className='md:py-1 py-0.5'>Become our Distributor</a></p>
-                    <p><a href='https://github.com/charles-eze/amazon-clone-with-react' 
-                        className='md:py-1 py-0.5'>Become an Affiliate</a></p>
+                    <p><Link to='/careers'>Become our Distributor</Link></p>
+                    <p><Link to='/careers'>Become an Affiliate</Link></p>
                 </article>
                 <article className=' Footer__article'>
                     <h4 className='md:text-xs lg:text-base font-bold'>Let Us Help You</h4>
-                    <p><a href='https://github.com/charles-eze/amazon-clone-with-react' 
-                        className='md:py-1 py-0.5'>Get a Quote</a></p>
-                    <p><a href='https://github.com/charles-eze/amazon-clone-with-react' 
-                        className='md:py-1 py-0.5'>Contact Us</a></p>
+                    <p><Link to='/quotation'>Get a Quote</Link></p>
+                    <p><Link to='/contact'>Contact Us</Link></p>
                 </article>
                 <article className=' Footer__article'>
                     <h4>Socials</h4>

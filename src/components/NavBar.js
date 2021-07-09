@@ -147,16 +147,16 @@ const NavBar = () => {
                         </div>
                     </li>
                     <li className='NavBar__link'>
-                         <Link className='Link' to='/quotation'>Our Services</Link>
+                         <Link className='Link' to='/services'>Our Services</Link>
                     </li>
                     <li className='NavBar__link'>
                         <Link className='Link' to='/quotation'>About Us</Link>
                     </li>
                     <li className='NavBar__link'>
-                        <Link className='Link' to='/quotation'>Career</Link>
+                        <Link className='Link' to='/careers'>Career</Link>
                     </li>
                     <li className='NavBar__link'>
-                        <Link className='Link' to='/quotation'>Contact Us</Link>
+                        <Link className='Link' to='/contact'>Contact Us</Link>
                     </li>
                 </ul>
             </div>
