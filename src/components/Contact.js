@@ -1,12 +1,14 @@
 import React from 'react';
 import { FcContacts } from 'react-icons/fc';
 import { MdContactPhone} from 'react-icons/md';
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
     return (
         <div className='relative  '
             style={{height: '70vh', fontFamily: 'Poppins sans-serif'}}>
             <div className='relative flex justify-evenly top-28 mr-36 ml-36 pb-12 border border-gray-200'>
+                <Fade left>
                 <div className='pl-32 pr-16'>
                     <span className='flex pt-7 pb-7 '>
                         <MdContactPhone
@@ -23,8 +25,9 @@ const Contact = () => {
                     <p className='pt-0.5 text-lg font-bold'>Tel: +234 (0) 7035441395</p>
                     <p className='pt-0.5 text-lg font-semibold'>Email: info@afalog.com</p>
                     <p className='pt-0.5 text-lg font-semibold'>Email2: afalogmedicaldiagnostics@gmail.com</p>
-
                 </div>
+                </Fade>
+                <Fade right>
                 <div className='pl-32 pr-16'>
                     <span className='flex pt-7 pb-7 '>
                         <FcContacts
@@ -40,9 +43,8 @@ const Contact = () => {
                     <p className='pt-0.5 text-lg font-bold'>Tel: +234 (0) 7068666696</p>
                     <p className='pt-0.5 text-lg font-semibold'>Email: info@afalog.com</p>
                     <p className='pt-0.5 text-lg font-semibold'>Email2: afalogmedicaldiagnostics@gmail.com</p>
-
-
                 </div>
+                </Fade>
             </div>
         </div>
     )

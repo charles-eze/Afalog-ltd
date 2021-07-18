@@ -1,13 +1,9 @@
 import React from 'react';
-import "../css/QuotationForm.css";
-//import Footer from '../components/Footer';
-// import image from "../images/afalog_image.png"
 
 const QuotationForm = () => {
     return (
         <>
-        <div className='container'>
-            <div className='containers'></div>
+        <div className='bg-gray-100 relative '>
             <div className='QuotationForm'>
                 {/* <div className='form__logo'>
                     <img 
@@ -58,7 +54,6 @@ const QuotationForm = () => {
                     </form>
                 </div> 
             </div>
-            <div className='containerss'></div>
         </div>
         {/* <div className='footer'>
             <Footer />

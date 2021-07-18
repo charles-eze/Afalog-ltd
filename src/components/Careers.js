@@ -1,16 +1,20 @@
 import React from 'react';
 import image from "../images/CareerImages.jpg"
 import { FaUserTie } from 'react-icons/fa';
+import Fade from 'react-reveal/Fade';
 
 const Careers = () => {
     return (
         <div className='relative  '
             style={{height: '70vh', fontFamily: 'Poppins sans-serif'}}>
             <div className='relative flex justify-evenly top-28 mr-36 ml-36 pb-12 border border-gray-200'>
+                <Fade left> 
                 <img 
                     src={image}
                     className='pl-20 h-56 '
                     alt='career' />
+                </Fade>
+                <Fade right>
                 <div className='pl-32 pr-16'>
                     <span className='flex pt-7 pb-7 '>
                         <FaUserTie 
@@ -23,6 +27,7 @@ const Careers = () => {
 
                     <p className='pt-3.5 text-base text-gray-700'>We are the largest medical equipment procurement organisation in Nigeria with immense opportunities for anyone interested in building their career with us. Join us as we enter a new era in the medical equipment procurement industry, where we enrich lives with our robust supplies. Contact us for more details.</p>
                 </div>
+                </Fade>
             </div>
         </div>
     )

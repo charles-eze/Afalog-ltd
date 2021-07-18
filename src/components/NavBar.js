@@ -150,7 +150,7 @@ const NavBar = () => {
                          <Link className='Link' to='/services'>Our Services</Link>
                     </li>
                     <li className='NavBar__link'>
-                        <Link className='Link' to='/quotation'>About Us</Link>
+                        <Link className='Link' to='/about'>About Us</Link>
                     </li>
                     <li className='NavBar__link'>
                         <Link className='Link' to='/careers'>Career</Link>

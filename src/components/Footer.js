@@ -1,35 +1,34 @@
 import React from 'react';
-import "../css/Footer.css";
 import image from "../images/afalog_image.png"
 import { SocialIcon } from "react-social-icons";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-         <footer className='Footer'>
-            <section className='Footer__section'>
-                <article className='Footer__article'>
-                    <h4 className='md:text-sm lg:text-base font-bold'>Get to Know Us</h4>
-                    <p><Link to='/careers'>Careers</Link></p>
-                    <p><a href='https://github.com/charles-eze/amazon-clone-with-react'>About Afalog</a></p>
+         <footer className='relative pt-10 font-sans text-white bg-gray-900'>
+            <section className='mb-6 flex justify-evenly'>
+                <article className='flex flex-col'>
+                    <h4 className='mb-3 text-lg font-bold'>Get to Know Us</h4>
+                    <p className='mb-1.5 hover:underline hover:text-blue-600'><Link to='/careers'>Careers</Link></p>
+                    <p className='mb-1.5 hover:underline hover:text-blue-600'><Link to='/about'>About Afalog</Link></p>
                    
                 </article>
-                <article className='Footer__article '>
-                    <h4 className='md:text-sm lg:text-base font-bold'>Make Money with Us</h4>
-                    <p><Link to='/careers'>Become our Distributor</Link></p>
-                    <p><Link to='/careers'>Become an Affiliate</Link></p>
+                <article className='flex flex-col '>
+                    <h4 className='mb-3 text-lg font-bold'>Make Money with Us</h4>
+                    <p className='mb-1.5 hover:underline hover:text-blue-600'><Link to='/careers'>Become our Distributor</Link></p>
+                    <p className='mb-1.5 hover:underline hover:text-blue-600'><Link to='/careers'>Become an Affiliate</Link></p>
                 </article>
-                <article className=' Footer__article'>
-                    <h4 className='md:text-xs lg:text-base font-bold'>Let Us Help You</h4>
-                    <p><Link to='/quotation'>Get a Quote</Link></p>
-                    <p><Link to='/contact'>Contact Us</Link></p>
+                <article className=' flex flex-col'>
+                    <h4 className='mb-3 text-lg font-bold'>Let Us Help You</h4>
+                    <p className='mb-1.5 hover:underline hover:text-blue-600'><Link to='/quotation'>Get a Quote</Link></p>
+                    <p className='mb-1.5 hover:underline hover:text-blue-600'><Link to='/contact'>Contact Us</Link></p>
                 </article>
-                <article className=' Footer__article'>
-                    <h4>Socials</h4>
-                    <div className='Footer__socials'>
+                <article className=' flex flex-col'>
+                    <h4 className='mb-3 text-lg font-bold'>Socials</h4>
+                    <div className='flex'>
                         <SocialIcon 
                             url='https://www.facebook.com/afalogmed' 
-                            className='social_icons' 
+                            className='mr-3 transition duration-700 ease-in-out transform hover:-translate-x hover:scale-125' 
                             target='_blank'
                             rel='noreferrer'
                             fgColor='#fff' 
@@ -37,7 +36,7 @@ const Footer = () => {
 
                         <SocialIcon 
                             url='https://instagram.com/afalogmed' 
-                            className='social_icons' 
+                            className='mr-3 transition duration-700 ease-in-out transform hover:-translate-x hover:scale-125' 
                             target='_blank'
                             rel='noreferrer' 
                             fgColor='#fff'
@@ -48,13 +47,13 @@ const Footer = () => {
             </section>
             {/* <div className=' Footer_divider'></div> */}
             <hr />
-            <div className='Footer__elements'>
+            <div className='mt-6 justify-center items-center relative flex pb-8 '>
                 <img 
-                    className='Footer__logo'
+                    className='mr-8 w-32'
                     src={image}
                     alt='Afalog footer logo'/>
                 <p className='Footer__copyright'>
-                    <span className='Footer__date'>©️ 2017 - {new Date().getFullYear()}</span>
+                    <span className='mr-2 text-sm'>©️ 2017 - {new Date().getFullYear()}</span>
                     Afalog Medical Ltd | All Rights Reserved.
                 </p>
             </div>
