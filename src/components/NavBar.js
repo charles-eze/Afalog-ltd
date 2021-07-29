@@ -9,12 +9,12 @@ const NavBar = () => {
             <div className='NavBar__logo'>
             <Link to='/'>
                 <img 
-                    className='logo'
+                    className='w-28'
                     src={image}
                     alt='afalog logo' />
             </Link>
             </div>
-            <div className='NavBar__links'>
+            <div className='NavBar__links hidden md:block'>
                 <ul>
                     <li className='NavBar__link'>
                         <Link className='Link' to='/'>Home</Link>
