@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Footer from './components/Footer';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
+import ScrollToTop from "./components/ScrollToTop";
 import QuotationForm from './components/QuotationForm';
 import About from './components/About';
 import Services from './components/Services';
@@ -12,6 +13,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <NavBar />
       
       <Switch>
