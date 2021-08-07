@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
     <ScrollToTop />
-      <NavBar />
+      {/* <NavBar /> */}
       
       <Switch>
         <Route component={Home} path='/' exact />
