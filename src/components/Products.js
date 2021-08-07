@@ -11,7 +11,7 @@ SwiperCore.use([Autoplay]);
 
 const Products = () => {
     return (
-        <div className='relative mt-3.5 px-3.5 md:px-5 '>
+        <div className='relative mt-3.5 px-3.5 md:px-4 '>
         <Swiper
             className='md:hidden'
             spaceBetween={11}
