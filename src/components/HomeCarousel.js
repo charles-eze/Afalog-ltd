@@ -26,9 +26,10 @@ const HomeCarousel = () => {
             onSwiper={(swiper) => console.log(swiper)} >
             {heroData.map( img => (
                 <SwiperSlide key={img.id}>
-                    <div className='HomeCarousel__container'>
+                    <div className='w-full '
+                        style={{height: '50vh'}}>
                         <img
-                            className='HomeCarousel__img' 
+                            className='HomeCsel__img h-full' 
                             src={img.image}
                             alt='Carousel' />               
                     </div>

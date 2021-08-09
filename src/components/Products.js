@@ -20,14 +20,15 @@ const Products = () => {
             loopFillGroupWithBlank={true}
             slidesPerView={1}
             onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)} >
+            onSwiper={(swiper) => console.log(swiper)}>
             {productsData.map( product => (
                 <SwiperSlide key={product.id}>
-                    <div className='Products__container px-3 border-2 border-gray-200 rounded-md'>
+                    <div className='Products__container px-3 border-2 border-gray-200 rounded-md'
+                        style={{boxShadow: "0 0.55rem 1rem rgba(0, 0, 0, 0.45)"}}>
                         <ul className='Products__list'>
                             <li>
                                 <figure >
-                                    <figcaption className='text-center mb-2 mt-3.5 fontt Products__title '>{product?.title}</figcaption>                             
+                                    <figcaption className='text-center text-lg mb-2 mt-3.5 font-semibold fontt Products__title '>{product?.title}</figcaption>                             
                                     <blockquote className='Products_elements'>
                                         <p className='mb-4'>{product?.description}</p>
                                         <img 
@@ -55,11 +56,12 @@ const Products = () => {
             onSwiper={(swiper) => console.log(swiper)} >
             {productsData.map( product => (
                 <SwiperSlide key={product.id}>
-                    <div className='Products__container px-3 border-2 border-gray-200 rounded-md'>
+                    <div className='Products__container px-3 mr-1 border-2 border-gray-200 rounded-md'
+                    style={{boxShadow: "0 0.55rem 1rem rgba(0, 0, 0, 0.45)"}}>
                         <ul className='Products__list'>
                             <li>
                                 <figure >
-                                    <figcaption className='text-center mb-2 mt-3.5 fontt Products__title '>{product?.title}</figcaption>                             
+                                    <figcaption className='text-center text-xl mb-2 mt-3.5 fontt font-semibold'>{product?.title}</figcaption>                             
                                     <blockquote className='Products_elements'>
                                         <p className='mb-4'>{product?.description}</p>
                                         <img 
