@@ -28,11 +28,11 @@ const Products = () => {
                         <ul className='Products__list'>
                             <li>
                                 <figure >
-                                    <figcaption className='text-center text-lg mb-2 mt-3.5 font-semibold fontt Products__title '>{product?.title}</figcaption>                             
+                                    <figcaption className='text-center text-lg mb-4 mt-3.5 font-semibold fontt Products__title '>{product?.title}</figcaption>                             
                                     <blockquote className='Products_elements'>
                                         <p className='mb-4'>{product?.description}</p>
                                         <img 
-                                            className='items-center w-full h-80 mb-3.5'
+                                            className='items-center w-full h-72 mb-3.5'
                                             src={product?.image}
                                             alt="products" />
                                     </blockquote>
@@ -61,7 +61,7 @@ const Products = () => {
                         <ul className='Products__list'>
                             <li>
                                 <figure >
-                                    <figcaption className='text-center text-xl mb-2 mt-3.5 fontt font-semibold'>{product?.title}</figcaption>                             
+                                    <figcaption className='text-center text-xl mb-4 mt-3.5 fontt font-semibold'>{product?.title}</figcaption>                             
                                     <blockquote className='Products_elements'>
                                         <p className='mb-4'>{product?.description}</p>
                                         <img 

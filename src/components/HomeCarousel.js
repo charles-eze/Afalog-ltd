@@ -7,13 +7,14 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/effect-fade/effect-fade.scss';
 import SwiperCore, { Navigation, Pagination, Autoplay, EffectFade } from 'swiper';
+import QuoteButton from './QuoteButton';
 
 
 SwiperCore.use([Navigation, Pagination, Autoplay, EffectFade]);
 
 const HomeCarousel = () => {
     return (
-        <div className='HomeCarousel'>
+        <div className='HomeCarousel select-none'>
         <Swiper
             effect="fade"
             spaceBetween={0}
@@ -27,16 +28,17 @@ const HomeCarousel = () => {
             {heroData.map( img => (
                 <SwiperSlide key={img.id}>
                     <div className='w-full '
-                        style={{height: '50vh'}}>
+                        style={{height: '40vh'}}>
                         <img
-                            className='HomeCsel__img h-full' 
+                            className='HomeCsel__img h-full w-full' 
                             src={img.image}
                             alt='Carousel' />               
                     </div>
                 </SwiperSlide>
             ))}   
         </Swiper>
-          
+          <QuoteButton />
+
         </div>
     )
 }

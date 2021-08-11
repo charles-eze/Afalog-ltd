@@ -1,4 +1,3 @@
-import image1 from "../images/product1.jpg"
 import image2 from "../images/product2.jpg"
 import image3 from "../images/product3.jpg"
 import image4 from "../images/product4.png"
@@ -13,7 +12,6 @@ import image12 from "../images/product12.jpg"
 import image13 from "../images/product13.jpg"
 import image14 from "../images/product14.jpg"
 import image15 from "../images/product15.jpg"
-import image16 from "../images/product16.jpg"
 import image17 from "../images/product17.jpg"
 import image18 from "../images/product18.jpg"
 import image19 from "../images/product19.jpg"
@@ -21,123 +19,111 @@ import image20 from "../images/product20.jpg"
 
 const productsData = [
     {
-        id: 1,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
-        image: image1
-    },
-    {
         id: 2,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Isolation Gown/Scrub suits',
+        description: '',
         image: image2
     },
     {
         id: 3,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Auto ELISA Processor',
+        description: '',
         image: image3
     },
     {
         id: 4,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Elisa Microplate Reader',
+        description: '',
         image: image4
     },
     {
         id: 5,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Auto Chemistry Analyzer',
+        description: '',
         image: image5
     },
     {
         id: 6,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Auto Chemistry Analyzer',
+        description: '',
         image: image6
     },
     {
         id: 7,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Auto ELISA Processor',
+        description: '',
         image: image7
     },
     {
         id: 8,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Ultrasound E2',
+        description: '',
         image: image8
     },
     {
         id: 9,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Semi Auto Chemistry',
+        description: '',
         image: image9
     },
     {
         id: 10,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Auto Urine Analyzer',
+        description: '',
         image: image10
     },
     {
         id: 11,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Biosafety Cabinet',
+        description: '',
         image: image11
     },
     {
         id: 12,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Consumables',
+        description: '',
         image: image12
     },
     {
         id: 13,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Auto Electrolyte Analyzer',
+        description: '',
         image: image13
     },
     {
         id: 14,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Elisa Microplate Washer',
+        description: '',
         image: image14
     },
     {
         id: 15,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Ultrasound',
+        description: '',
         image: image15
     },
     {
-        id: 16,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
-        image: image16
-    },
-    {
         id: 17,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Ultra Low Temp. Freezer',
+        description: '',
         image: image17
     },
     {
         id: 18,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'CT Machine',
+        description: '',
         image: image18
     },
     {
         id: 19,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'High Speed Centrifuge',
+        description: '',
         image: image19
     },
     {
         id: 20,
-        title: 'Product Name',
-        description: 'Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 i',
+        title: 'Biosafety Cabinet',
+        description: '',
         image: image20
     },
 ];
