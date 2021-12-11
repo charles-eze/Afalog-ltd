@@ -24,7 +24,7 @@
 .QuoteButton__icon {
   text-align: center;
   display: flex;
-  right: 84%;
+  right: 86%;
   position: absolute;
   /* top: -3.15rem; */
   justify-content: center;
@@ -46,3 +46,11 @@
     animationtimingfunction: cubic-bezier(0, 0, 0.2, 1);
   }
 }
+
+@media(min-width: 930px) {
+  .Icon {
+    right: 87.80%;
+
+  }
+}
+

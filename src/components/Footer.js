@@ -2,11 +2,12 @@ import React from 'react';
 import image from "../images/afalog_image.png"
 import { SocialIcon } from "react-social-icons";
 import { Link } from 'react-router-dom';
+import "../css/Footer.css";
 
 const Footer = () => {
     return (
-         <footer className='relative pt-6 md:pt-10 top-28 font-sans text-white bg-gray-900'>
-            <section className='grid grid-cols-4 pl-4 pr-1 md:pl-5 md:pr-5 xl:pl-44 xl:pr-32 gap-1 lg:gap-12 mb-5 md:mb-7'>
+         <footer className='footer relative pt-6 font-sans top-24 md:top-28 text-white bg-gray-900'>
+            <section className='grid grid-cols-4 pl-4 pr-1 md:pl-5 md:pr-5 xl:pl-44 xl:pr-32 gap-1 lg:gap-12 mb-5'>
                 <article className='md:text-sm flex flex-col'
                             style={{fontSize: 7}}>
                     <h4 className='mb-3 md:text-base font-bold'
@@ -54,7 +55,7 @@ const Footer = () => {
             </section>
             {/* <div className=' Footer_divider'></div> */}
             <hr />
-            <div className='mt-6 justify-center items-center relative flex pb-8 '>
+            <div className='mt-6 md:mt-4 justify-center items-center relative flex pb-8 md:pb-3 '>
                 <img 
                     className='mr-8 md:w-24 w-10 -ml-5 items-center'
                     src={image}

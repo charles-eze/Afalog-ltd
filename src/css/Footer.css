@@ -3,3 +3,81 @@
 .fontt {
   font-family: "Poppins", sans-serif;
 }
+
+/* @media (max-width: 450px) {
+  .Mobile_Heigt2 {
+    height: 100vh !important;
+  }
+} */
+
+@media (max-width: 930px) {
+  .Mobile_Heigt {
+    height: 143vh;
+  }
+
+  .Mobile_Form_Heigt {
+    height: 135vh;
+  }
+
+  .Mobile_Foot {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    bottom: 4.4rem;
+    position: fixed;
+  }
+}
+
+@media (min-width: 930px) {
+  .footer {
+    height: 30vh;
+  }
+
+  .Height {
+    height: calc(100vh - 30vh);
+  }
+
+  .Heightwe {
+    height: 100vh;
+  }
+
+  .Heightwe1 {
+    height: 57vh;
+  }
+
+   .Heightwe2 {
+    height: 30vh;
+  }
+
+  .HeightServ1 {
+    height: 50vh;
+    margin-bottom: 6rem;
+  }
+
+  .HeightServ2 {
+    height: 33vh;
+  }
+
+
+  .Heightt {
+    height: calc(150vh - 30vh);
+  }
+
+  .Height_home{
+    height: 204.5vh;
+  }
+}
+
+@media(min-width: 1919px) {
+  .Height_homee {
+    height: 169.8vh;
+  }
+
+  .Heighttt {
+    height: calc(109vh - 30vh) ;
+  }
+
+  .Heightt2 {
+    height: calc(90vh - 30vh) ;
+  }
+}

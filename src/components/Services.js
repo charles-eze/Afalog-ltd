@@ -1,16 +1,14 @@
 import React from 'react';
 import { GrBusinessService } from 'react-icons/gr';
 import "../css/Footer.css";
-import Flip from 'react-reveal/Flip';
+import Slide from 'react-reveal/Slide';
+import Footer from './Footer';
 
 const Services = () => {
     return (
-        <div className='relative fontt bg-gray-100'
-            style={{height: '70vh'}}>
-        <div className='bg-gray-100 h-40 w-full -bottom-40 flex absolute '></div>
-
-            <Flip left>
-            <div className='relative flex flex-col text-center top-36 mr-3.5 ml-3.5 md:mr-36 md:ml-36 pb-12 border border-gray-200 bg-gray-50'
+        <div className='relative fontt bg-gray-100 Heightwe Mobile_Heigt '>
+            <Slide top>
+            <div className='relative HeightServ1 flex flex-col text-center top-36 mr-3.5 ml-3.5 md:mr-36 md:ml-36 pb-12 border border-gray-200 bg-gray-50'
                 style={{boxShadow: "0 0.55rem 1rem rgba(0, 0, 0, 0.45)"}}>
                
                 <span className='flex pt-7 pb-7 justify-center items-center '>
@@ -24,7 +22,10 @@ const Services = () => {
 
                 <p className='pt-2.5 text-left pl-3.5 pr-3 md:pl-16 md:pr-12 text-base md:text-base text-gray-700'>For all technical services, please contact us via <a className='text-blue-500 hover:underline' href="mailto:info@afalog.com, afalogmedicaldiagnostics@gmail.com"> info@afalog.com</a> and our technical team will attend to you.</p>   
             </div>
-            </Flip>
+            </Slide>
+            <div className="HeightServ2 Mobile_Foot">
+                <Footer />
+            </div>
         </div>
     )
 }

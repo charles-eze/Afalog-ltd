@@ -14,7 +14,7 @@ SwiperCore.use([Navigation, Pagination, Autoplay, EffectFade]);
 
 const HomeCarousel = () => {
     return (
-        <div className='HomeCarousel select-none'>
+        <div className='HomeCarousel select-none Height'>
         <Swiper
             effect="fade"
             spaceBetween={0}
@@ -27,8 +27,7 @@ const HomeCarousel = () => {
             onSwiper={(swiper) => console.log(swiper)} >
             {heroData.map( img => (
                 <SwiperSlide key={img.id}>
-                    <div className='w-full '
-                        style={{height: '40vh'}}>
+                    <div className='w-full Height_img  Height_mobile Height_imgg'>
                         <img
                             className='HomeCsel__img h-full w-full' 
                             src={img.image}

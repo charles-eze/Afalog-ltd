@@ -1,13 +1,13 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import "../css/Footer.css";
+import Footer from './Footer';
 
 
 const QuotationForm = () => {
     
     return (
-        <>
-        <div className='bg-gray-100 bg-cover relative'>
-            <div className='bg-gray-100 h-40 w-full -bottom-40 flex absolute '></div>
+        <div className='bg-gray-100 bg-cover relative Heightt Heighttt Mobile_Form_Heigt'>
             <div className='relative bg-gray-50 pl-5 md:px-11 pt-5 md:pt-7 top-24 md:top-28 m-auto w-11/12 md:w-2/4 md:pb-10 md:mb-7 border border-gray-300 rounded-lg'
                 style={{fontFamily: 'Poppins sans-serif', boxShadow: "0 0.55rem 1rem rgba(0, 0, 0, 0.45)"}}>
                 {/* <div className='form__logo'>
@@ -80,11 +80,10 @@ const QuotationForm = () => {
                     </form>
                 </div> 
             </div>
+             <div className='Heightwe2 Mobile_Foot'>
+                <Footer />
+            </div>
         </div>
-        {/* <div className='footer'>
-            <Footer />
-        </div> */}
-        </>
     )
 }
 

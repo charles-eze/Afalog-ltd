@@ -7,10 +7,10 @@ import image from "../images/quote.png"
 
 const QuoteButton = () => {
     return (
-        <div className='absolute justify-end items-center bottom-3.5 ml-9'
+        <div className='absolute justify-end items-center bottom-3.5 ml-9 md:ml-24 md:-mb-32 2xl:-mb-40'
                 style={{zIndex: 20}}>
             <Slide right>
-                <ImArrowDown className='QuoteButton__icon bounce text-4xl -top-9'/>
+                <ImArrowDown className='QuoteButton__icon Icon bounce text-4xl md:text-7xl -top-9 md:-top-14 '/>
                 <Link to='quotation' className='QuoteButton__btn'>
                     <img 
                         className=''
