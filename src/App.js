@@ -8,6 +8,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Careers from './components/Careers';
 import Contact from './components/Contact';
+import Submit from './components/Submit';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route component={Services} path='/services' />
         <Route component={Careers} path='/careers' />
         <Route component={Contact} path='/contact' /> 
+        <Route component={Submit} path='/submitted' /> 
       </Switch>
     </BrowserRouter>
   );
